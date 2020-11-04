@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	flex: 0 0 auto;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+img{
+	max-width: 100%;
+}
+li{
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+section{}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.col-4{
+    width: 25%;
+    padding: 15px;
+}
+.col-3{
+    width: 33.33%;
+    padding: 15px;
+}
+.btn{
+	color: #413960;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition-duration: 0.3s;
+    background: #21B573;
+    border-radius: 30px
+}
+.btn:hover{
+	color: #fff;
+    background: #151716;
+}
+.padding-y{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* Banner section css */
+.bannar-section{
+    background: #F0FFF0;
+}
+header{
+    padding: 15px 0px;
+    
+}
+.logo{
+    width: 15%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a img{
+}
+nav{
+    width: 85%;
+    flex: 0 0 auto;
+}
+nav ul{}
+nav ul{
+	justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #413960;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition-duration: 0.3s;
+}
+nav ul li a:hover{
+    background: #21b573;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.banner-contend{
+    width: 50%;
+}
+.banner-contend h5{
+	color: #FD511A;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 5px;
+}
+h1{
+	font-size: 65px;
+	letter-spacing: 2px;
+	line-height: 1.2;
+	padding: 13px 5px 20px 0px;
+} 
+h1 span{
+	color: #21B573;
+}
+p{
+	font-size: 21px;
+    letter-spacing: 2px;
+    color: #6C6B6B;
+    line-height: 35px;
+    margin-bottom: 15px;
+    padding: 0px 5px;
+}
+.banner-img{
+    width: 50%;
+    padding: 20px 40px
+}
+/* Feature section css */
+
+.feature-section{
+    padding: 50px 0;
+}
+.feature{
+    background: #F0FFF0;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+.feature:hover{
+    box-shadow: 0px 10px 20px #c1c1c1;
+    background: #fff;
+}
+.feature img{
+    height: 81px;
+}
+.feature p{
+    margin: 0;
+    font-size: 16px;
+}
+.feature h2{
+    font-size: 25px;
+    color: #413960;
+    margin: 5px 0;
+}
+
+
+
+/* courses Section css */
+.courses-section{
+	padding-bottom: 30px;
+}
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.course{
+    box-shadow: 0px 10px 20px #c1c1c1;
+    border-radius: 15px;
+    padding: 15px;
+}
+.course img{}
+.course h3{
+    font-size: 20px;
+    color: #413960;
+    margin: 5px 0;
+}
+.course p{
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+.course ul{
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.course ul li{
+    color: #413960;
+    font-size: 15px;
+}
+.course ul li i{}
+
+
+
+/* Testimonial Section css */
+.testimonial-section{
+    padding: 50px 0;
+}
+.testi-img{
+    width: 13%;
+    padding: 15px;
+}
+.testi-img img{}
+.testi-contend {
+    width: 70%;
+    padding: 15px;
+}
+.testi-contend p{
+	font-size: 19px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+.testimonial-section .flex{
+	justify-content: center;
+	align-items: center;
+}
+
+/* Footer Section css */
+footer{}
+.footer-section{
+    background: #282531;
+    padding-top: 50px;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+    padding: 40px 0;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+footer ul{}
+footer ul li{
+    color: #fff;
+}
+footer ul li strong{
+    color: #fff;
+    font-size: 20px;
+}
+footer ul li a{
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 4px 0;
+}
+footer ul li a:hover{}
+
+.copyright{
+    padding: 30px 0 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+}
+.copyright a{
+    color: #21b573;
+    font-size: 16px;
+    font-weight: 500;
+}
+.copyright a:hover{
+    color: #FD511A;
+}
